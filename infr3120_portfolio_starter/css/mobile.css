@@ -1,0 +1,101 @@
+
+/* Mobile screens: 480px and smaller */
+@media screen and (max-width: 480px) {
+
+    /* Main page */
+    body {
+        font-size: 16px;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    /* Header and navigation */
+    .site-header {
+        padding: 15px 5%;
+    }
+
+    .nav-list li {
+        margin-right: 12px;
+        margin-bottom: 8px;
+    }
+
+    .nav-list a {
+        font-size: 14px;
+    }
+
+    /* Home page banner */
+    .hero {
+        margin: 15px 0;
+        padding: 30px 15px;
+        border-radius: 12px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .intro {
+        font-size: 16px;
+    }
+
+    /* Buttons */
+    .hero-actions .button,
+    .hero-actions .text-link {
+        display: block;
+        margin: 12px 0;
+    }
+
+    /* Headings */
+    .section-block h2,
+    .page-heading h1 {
+        font-size: 26px;
+    }
+
+    .page-heading {
+        padding-top: 25px;
+    }
+
+    /* Stack cards vertically */
+    .info-card,
+    .project-card {
+        display: block;
+        width: 100%;
+        margin: 12px 0;
+    }
+
+    /* Stack About and Contact sections */
+    .profile-figure,
+    .prose-card,
+    .contact-copy,
+    .contact-form {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    .profile-figure {
+        margin-bottom: 20px;
+    }
+
+    .profile-photo {
+        width: 100%;
+        min-height: 220px;
+    }
+
+    .prose-card,
+    .contact-form {
+        padding: 16px;
+    }
+
+    .contact-copy {
+        margin-bottom: 20px;
+    }
+
+    /* Footer */
+    .site-footer {
+        padding: 20px 5%;
+        overflow-wrap: break-word;
+    }
+}

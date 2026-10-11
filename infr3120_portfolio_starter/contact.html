@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Mustafa Khan.">
+  <title>Mustafa Khan | Contact</title>
+  <link rel="stylesheet" href="css/laptop.css">
+  <link rel="stylesheet" href="css/tablet.css">
+  <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">MK<span>.</span></a>
+    <nav aria-label="Main navigation"><ul class="nav-list">
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About Me</a></li>
+      <li><a href="projects.html">Projects</a></li><li><a class="current" href="contact.html" aria-current="page">Contact</a></li>
+    </ul></nav>
+  </header>
+  <main>
+    <section class="page-heading"><p class="eyebrow">SAY HELLO</p><h1>Contact me</h1><p>Use the form below to send a message.</p></section>
+    <section class="contact-layout">
+      <article class="contact-copy"><h2>Let's connect</h2><p>For questions about my coursework or projects, you can use this form or email me directly.</p><p><strong>Email</strong><br><a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></p><p class="small-note">This is a front-end demonstration form. Without a server or form service, it validates fields in the browser but does not deliver messages.</p></article>
+      <form class="contact-form" action="#" method="get">
+        <div class="form-field"><label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" minlength="2" maxlength="80" required></div>
+        <div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        <div class="form-field"><label for="phone">Phone number (optional)</label><input id="phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9()+. \-]{7,20}" title="Enter 7–20 characters using digits, spaces, +, parentheses, periods, or hyphens."></div>
+        <div class="form-field"><label for="comments">Message</label><textarea id="comments" name="comments" rows="5" minlength="10" maxlength="1000" required></textarea></div>
+        <button class="button" type="submit">Submit message</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><p>Contact: <a href="mailto:mustafa.khan4@ontariotechu.net">mustafa.khan4@ontariotechu.net</a></p><p>© 2026 Mustafa Khan. All rights reserved.</p></footer>
+</body>
+</html>
